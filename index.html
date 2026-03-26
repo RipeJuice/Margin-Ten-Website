@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Ten | Precision 3D</title>
+    <style>
+        /* This is the CSS that styles the page */
+        body { 
+            font-family: 'Helvetica Neue', Arial, sans-serif; 
+            background-color: #f8fafc; /* Very light gray/white */
+            color: #0f172a; /* Navy Blue */
+            margin: 0; 
+            line-height: 1.6;
+        }
+        header { 
+            background-color: #0f172a; /* Deep Navy */
+            color: white; 
+            padding: 1.5rem 3rem; 
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid #cbd5e1;
+        }
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+        .hero { 
+            padding: 6rem 2rem; 
+            text-align: center; 
+        }
+        .hero h1 { 
+            font-size: 3.5rem; 
+            margin-bottom: 0.5rem; 
+            text-transform: uppercase; 
+            letter-spacing: 2px;
+            color: #0f172a;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #475569;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .grid { 
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap;
+            gap: 2rem; 
+            padding: 2rem; 
+        }
+        .card { 
+            background: white; 
+            padding: 2rem; 
+            border: 2px solid #0f172a; 
+            /* This creates that harsh, geometric shadow we talked about */
+            box-shadow: 6px 6px 0px #0f172a; 
+            width: 300px;
+        }
+        .card h3 {
+            margin-top: 0;
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-text">MARGIN TEN</div>
+    </header>
+
+    <section class="hero">
+        <h1>Engineered Additive</h1>
+        <p>High-tolerance functional prototypes, mechanical assemblies, and structural components built to exact specifications.</p>
+    </section>
+
+    <section class="grid">
+        <div class="card">
+            <h3>Rapid Prototyping</h3>
+            <p>Iterate faster with precision FDM. Validate your geometry before expensive tooling or CNC machining.</p>
+        </div>
+        <div class="card">
+            <h3>Mechanical Parts</h3>
+            <p>Designed for tolerance. Built for function. Utilizing structural materials like Carbon Fiber Nylon and ABS.</p>
+        </div>
+    </section>
+
+</body>
+</html>
