@@ -1,2 +1,2 @@
 // JavaScript file for Margin Ten Website
-// Add your interactivity here
+// @RipeJuice, add your interactivity here
