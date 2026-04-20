@@ -1,19 +1,19 @@
 /* This is the CSS that styles the page, in a separate file! */
 body { 
     font-family: 'Helvetica Neue', Arial, sans-serif; 
-    background-color: #f8fafc; /* Very light gray/white */
-    color: #0f172a; /* Navy Blue */
+    background-color: #F1F2EE; /* Very light gray/white */
+    color: #1B2647; /* Navy Blue */
     margin: 0; 
     line-height: 1.6;
 }
 
 header { 
-    background-color: #0f172a; /* Deep Navy */
+    background-color: #1B2647; /* Deep Navy */
     color: white; 
     padding: 1.5rem 3rem; 
     display: flex;
     align-items: center;
-    border-bottom: 4px solid #cbd5e1;
+    border-bottom: 4px solid #2C3A63; /* Slightly lighter than Deep Navy */
 }
 
 .logo-text {
