@@ -2,13 +2,13 @@
 body { 
     font-family: 'Helvetica Neue', Arial, sans-serif; 
     background-color: #F1F2EE; /* Very light gray/white */
-    color: #1B2647; /* Navy Blue */
+    color: #152442; /* Navy Blue */
     margin: 0; 
     line-height: 1.6;
 }
 
 header { 
-    background-color: #1B2647; /* Deep Navy */
+    background-color: #152442; /* Deep Navy */
     color: white; 
     padding: 1.5rem 3rem; 
     display: flex;
